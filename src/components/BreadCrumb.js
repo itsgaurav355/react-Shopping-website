@@ -7,7 +7,9 @@ const BreadCrumb = (props) =>{
         <div className="container-xxl">
             <div className="row">
                 <div className="col-12 d-flex justify-content-center align-items-center">
-                    <p className="text-center mb-0"> <Link to="/" className="text-dark"> Home{" "}</Link>{" "}/{title}
+                    <p className="text-center mb-0"> <Link to="/" className="text-dark"> Home &nbsp;
+                    </Link>
+                    /{title}
                     </p>
                 </div>
             </div>
@@ -16,4 +18,4 @@ const BreadCrumb = (props) =>{
     );
 }
 
-export default BreadCrumb;
+export default BreadCrumb; 
